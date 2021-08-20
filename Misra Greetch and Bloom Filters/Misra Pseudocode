@@ -1,5 +1,5 @@
 A = empty associative array;
-// Processing
+// Processing stream of elements
 while ( not end of sequence ) #referente ao data stream
      j = current_token();
      if ( j in keys(A) ) then A[ j ] = A[ j ] + 1;
